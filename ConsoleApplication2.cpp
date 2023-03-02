@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <windows.h>
 
-// Typedef for the target function
 typedef int (*target_func_t)(int);
 
 // Trampoline function that will be used to execute the original code from the target function
